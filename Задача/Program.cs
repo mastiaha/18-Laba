@@ -10,10 +10,11 @@ namespace Задача
     {
         static void Main()
         {
+            Console.WriteLine("Введите скобки");
             string skobki = Console.ReadLine();
             Console.WriteLine(Check(skobki) == -1 ? "Ошибок нет. Скобки расставлены правильно!" : Check(skobki).ToString());
             Console.WriteLine(Check(skobki) != -1 ? "Ошибка! Скобки расставлены неправильно!" : Check(skobki).ToString());
-
+            Console.WriteLine("Для выхода из программы нажмите любую клавишу");
             Console.ReadKey();
         }
 
